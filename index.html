@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 5//EN" "http://www.w3.org/TR/html5/strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>RAND↻M FAMICASE</title>
+	<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+		<h1 id="title" onclick="randomize();">→ RAND<span id="arr">↻</span>M FAMICASE ←</h1>
+		
+		<div id="container">
+		
+			<div id="left-panel" class="panel">
+			
+				<a target="_blank" class="link" id="link">SOURCE</a> <br/>
+				<a target="_blank" class="link" id="trans">TRANSLATION</a> <br/>
+				<select id="year">
+					<option value="-1" selected>ANY YEAR</option> 
+					<option value="0"> 2008</option>
+					<option value="1"> 2009</option>
+					<option value="2"> 2010</option>
+					<option value="3"> 2011</option>
+					<option value="4"> 2012</option>
+					<option value="5"> 2013</option>
+					<option value="6"> 2014</option>
+					<option value="7"> 2015</option>
+					<option value="8"> 2016</option>
+					<option value="9"> 2017</option>
+					<option value="10"> 2018</option>
+					<option value="11"> 2019</option>
+				</select>
+				<br/> 
+			</div>
+			
+			
+			<div id="center-panel" class="panel">
+			
+					<img id="fam"/>
+					<img id="load" src="img/loader.gif" style="display:none;"/>
+					
+			</div>
+			
+			
+			<div id="right-panel" class="panel">
+				
+				<a onclick="save();" >SAVE</a>
+				<ul id="list">
+				</ul>
+				
+			</div>
+		
+		</div>
+		
+		<footer>
+			by <a target="_blank" class="link" href="https://twitter.com/Pyrofoux">@Pyrofoux</a> for <a target="_blank" class="link" href="http://agbic.com">A Game By Its Cover</a>
+		</footer> 
+		
+		<script type="text/javascript" src="js/lockr.js" ></script>
+		<script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>

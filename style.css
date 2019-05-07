@@ -1,0 +1,115 @@
+html,body
+{
+	font-family:'Russo One', Arial, sans-serif;
+	text-align:center;
+	height:100%;
+	background-color:black;
+	color:white;
+}
+
+#fam
+{
+	border:none;
+	text-align:center;
+}
+
+
+#title
+{
+	font-size:32px;
+	color:white;
+}
+
+#title:hover
+{
+	color:orange;
+	cursor:pointer;
+}
+
+#arr
+{
+	font-size:48px;
+}
+
+a
+{
+	color:red;
+	cursor:pointer;
+	text-decoration:none;
+}
+
+a:hover
+{
+	color:orange;
+	text-decoration:none;
+}
+
+
+#container
+{
+	text-align:center;
+}
+
+.panel
+{
+	display:inline-block;
+	vertical-align: top;
+	/*border:solid 1px white;*/
+}
+
+
+#center-panel
+{
+	width:630px;
+	height:500px;
+}
+
+#left-panel, #right-panel
+{
+	text-align:right;
+	font-size:24px;
+	width:15%;
+	padding-right:5px;
+	line-height: 48px;
+}
+
+#right-panel
+{
+	padding-left:5px;
+	text-align:left;
+}
+
+.list-element
+{
+	color:red;
+	cursor:pointer;
+}
+
+.list-element:hover
+{
+	color:orange;
+}
+
+select
+{
+	background-color:black;
+	color:red;
+	font-family:"Russo One";
+	font-size:24px;
+	width : 150px;
+	border: solid 2px red;
+	
+	/* for Firefox */
+	-moz-appearance: none;
+	/* for Chrome */
+	-webkit-appearance: none;
+	text-indent: 3px;
+}
+
+select:hover
+{
+	color:orange;
+	border: solid 2px orange;
+	cursor:pointer;
+	
+}
