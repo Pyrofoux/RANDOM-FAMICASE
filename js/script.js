@@ -64,7 +64,7 @@ function genUrl()
 		}
 		
 	}
-	else if(year > 2017)
+	else if(year > 2017 && year < 2019)
 	{
 		imgUrl = imgIndex.toString();
 		while(imgUrl.length < 2)
@@ -79,6 +79,22 @@ function genUrl()
 			pageUrl = "0"+pageUrl;
 		}
 		
+		
+	}
+	else
+	{
+		imgUrl = imgIndex.toString();
+		while(imgUrl.length < 3)
+		{
+			imgUrl = "0"+imgUrl;
+		}
+		imgUrl += "_sample";
+		
+		pageUrl = imgIndex.toString();
+		while(pageUrl.length < 3)
+		{
+			pageUrl = "0"+pageUrl;
+		}
 		
 	}
 	
@@ -216,9 +232,10 @@ refreshList();
 	Years always have 2 digits : 08, 09, 10, 11 ...
 	
 	Index of images are calculated diffrently for each year :
-	- 2008 to 2016 	: 1		 	 2 		   3		 12		   123 
-	- 2017			: 001		 002	   003		 012       123
-	- 2018 to 2019	: 01_sample  02_sample 03_sample 12_sample 123_sample
+	- 2008 to 2016 	: 1		 	 2 		   3		 12		   	123 
+	- 2017			: 001		 002	   003		 012       	123
+	- 2018			: 01_sample  02_sample 03_sample 12_sample 	123_sample
+	- 2019			: 01_sample  02_sample 03_sample 012_sample 123_sample
 	
 	Index of html pages too :
 	- 2008 to 2016 	: 01		 02 	   03		 12		   123
