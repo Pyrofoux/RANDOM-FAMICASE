@@ -1,4 +1,4 @@
-# RAND↻M FAMICASE
+# [RAND↻M FAMICASE](https://pyrofoux.itch.io/random-famicase)
 
 A tool to browse the many artworks done for the annual [Famicase](http://famicase.com/) exhibition.
 
