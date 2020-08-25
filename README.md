@@ -12,3 +12,10 @@ Features :
 - A cool name !
 
 Updated up to the 2019 exhibition.
+
+Potential future features:
+- Updating images up to the 2020 exhibition
+- Adding images from 2005 to 2007 (lower quality)
+- Not hotlinking images from the Famicase Exhibition website
+
+Feel free to add your own features!
