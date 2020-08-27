@@ -11,6 +11,8 @@ html,body
 {
 	border:none;
 	text-align:center;
+	max-width:615px;
+	max-height:405px;
 }
 
 
@@ -44,6 +46,24 @@ a:hover
 	text-decoration:none;
 }
 
+.disabledLink
+{
+	color:grey;
+	cursor:not-allowed;
+	pointer-events:none;
+}
+
+.disabledLink:hover
+{
+	color:grey;
+	cursor:not-allowed;
+	pointer-events:none;
+}
+
+.activeLink
+{
+	color:green;
+}
 
 #container
 {
@@ -98,7 +118,7 @@ select
 	font-size:24px;
 	width : 150px;
 	border: solid 2px red;
-	
+
 	/* for Firefox */
 	-moz-appearance: none;
 	/* for Chrome */
@@ -111,5 +131,5 @@ select:hover
 	color:orange;
 	border: solid 2px orange;
 	cursor:pointer;
-	
+
 }
