@@ -2,7 +2,7 @@ function qs(s){return document.getElementById(s)};
 function dc(s){return document.createElement(s)};
 function rand(min,max){return Math.floor(Math.random()*(max-min+1))+min};
 
-var tableIndex   = [23,30,52,53,58,78,63,79,89,112,149,162,165,250,261,270];
+var tableIndex   = [23,30,46,53,58,78,63,79,89,112,149,162,165,250,261,270];
 var lastInfo;
 var startingYear = 2005;
 
