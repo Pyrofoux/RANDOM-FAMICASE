@@ -126,10 +126,36 @@ select
 	text-indent: 3px;
 }
 
+#optgroup
+{
+	font-family:"Russo One" !important;
+}
+
 select:hover
 {
 	color:orange;
 	border: solid 2px orange;
 	cursor:pointer;
+}
 
+ul
+{
+	line-height:1em;
+
+	/*For custom bullet*/
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+li
+{
+	font-size:0.5em;
+}
+
+/*custom bullet*/
+li:before {
+  content: "➤";
+  padding-right: 5px;
 }
