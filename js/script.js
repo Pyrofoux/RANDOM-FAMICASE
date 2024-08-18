@@ -2,7 +2,7 @@ function qs(s){return document.getElementById(s)};
 function dc(s){return document.createElement(s)};
 function rand(min,max){return Math.floor(Math.random()*(max-min+1))+min};
 
-var tableIndex   = [23,30,46,53,58,78,63,79,89,112,149,162,165,250,261,270,253,253,252];
+var tableIndex   = [23,30,46,53,58,78,63,79,89,112,149,162,165,250,261,270,253,253,252,250];
 var lastInfo;
 var startingYear = 2005;
 
@@ -310,14 +310,14 @@ refreshList();
 
 	Index of images are calculated diffrently for each year :
 	- 2005 to 2008	: stored by art name
-	- 2008 to 2016 	: 1		 	 			2 		   		3		 				12		   			123
-	- 2017					: 001		 			002	   			003		 			012       		123
-	- 2018					: 01_sample 	02_sample 	03_sample 	12_sample 		123_sample
-	- 2019 to 2020	: 01_sample   02_sample 	03_sample 	012_sample		123_sample
-	- 2021 to 2023	: 001		 		  002	   			003		 			012       		123
+	- 2008 to 2016 	: 1		 	 	2 		   	3		 	12		   		123
+	- 2017			: 001		 	002	   		003		 	012       		123
+	- 2018			: 01_sample 	02_sample 	03_sample 	12_sample 		123_sample
+	- 2019 to 2020	: 01_sample   	02_sample 	03_sample 	012_sample		123_sample
+	- 2021 to 2023	: 001		 	002	   		003		 	012       		123
 
 	Index of html pages too :
-	- 2008 to 2016 	: 01		 02 	   03		 		12		   	123
-	- 2017 to 2023	: 001		 002	   003		 	012       123
+	- 2008 to 2016 	: 01		 02 	   03		 	12		  123
+	- 2017 to 2024	: 001		 002	   003		 	012       123
 
 */
