@@ -11,7 +11,7 @@ Features :
 - Adding your favorite covers to a list - it won't be erased when you close the window
 - A cool name !
 
-Updated up to the 2022 exhibition.
+Updated up to the 2025 exhibition.
 
 Potential future features:
 - Not hotlinking images from the Famicase Exhibition website
